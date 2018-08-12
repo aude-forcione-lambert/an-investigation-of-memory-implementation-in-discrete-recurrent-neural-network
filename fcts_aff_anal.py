@@ -182,10 +182,8 @@ def plotNeuronsActivity(states,input_array,output_array,nb=0):
 # Fonctions d'analyse
 
 def tension_to_index(tension):
-    index = np.zeros((8))
     tension = np.round(tension)
-    index[int((tension[0]+1)/2+(tension[1]+1)+2*(tension[2]+1))] = 1
-    return index
+    return int((tension[0]+1)/2+(tension[1]+1)+2*(tension[2]+1))
 
 def index_to_tension(index):
     tension = np.zeros((3))
