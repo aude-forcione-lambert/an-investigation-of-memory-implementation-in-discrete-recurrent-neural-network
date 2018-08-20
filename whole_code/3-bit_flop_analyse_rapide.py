@@ -170,7 +170,7 @@ for random_seed in range(10):
         for q_i in min_q:
             J = np.empty(w.shape)
             for i in range(nb_neurones):
-                J[i,:] = np.dot(w[i,:],(1/np.cosh(q_i[i]))**2)-I[i,:]
+                J[i,:] = np.dot(w[i,:],1/np.cosh(np.matmul(w[i,:],q_i))**2)-I[i,:]
             q_type.append(sum(np.linalg.eig(J)[0]>0))
         q_type = np.array(q_type,copy=True)
         
