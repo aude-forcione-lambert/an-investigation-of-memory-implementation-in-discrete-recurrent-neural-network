@@ -4,4 +4,4 @@ This is an interactive support made available as an addition to my summer inters
 
 All files in this directory are licensed under the MIT License. As such they can be freely distributed and modified whitout my explicit permission. Please see the "LICENSE" file for more information.
 
-Note that only a subset of the code and data developed during my intership is available here. For access to the full code or for any question or commentary, please contact me at aude.forcione-lambert@umontreal.ca
+Note that only a subset of the code and data developed during my intership is available here. For access to the full code or for any question or commentary, please contact me at aude.forcione.lambert@gmail.com
